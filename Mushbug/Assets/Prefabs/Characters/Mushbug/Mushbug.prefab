@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 58668485574145938}
   - component: {fileID: 114831062360546030}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Mushbug
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
