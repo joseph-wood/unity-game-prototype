@@ -10,6 +10,21 @@ public class PlayerController : MonoBehaviour
 
     public Animator playerAnim;
 
+    public static PlayerController instance;
+
+    void Start()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
 
     // Update is called once per frame
     void Update()
